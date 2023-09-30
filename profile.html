@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memeitizer - MemeTok</title>
+    <link rel="stylesheet" href="styles2.css"> <!-- Link to your CSS file -->
+</head>
+<body>    
+    <main>
+        <section class="profile-container">
+            <!-- TikTok-like User Avatar and Stats -->
+            <div class="profile-avatar">
+                <img src="icons/logo.svg" alt="User Avatar">
+            </div>
+            <div class="profile-info">
+                <h1>Memeitizer</h1>
+                <div class="user-stats">
+                    <span>Followers: 10M</span>
+                    <span>Following: 100</span>
+                    <span>Likes: 1.5B</span>
+                </div>
+            </div>
+        </section>
+        <!-- Tabbed Interface for Posts and Likes -->
+        <div class="tab-container">
+    		<button class="tab active-tab" data-tab="Posts" onclick="openTab('Posts')">Posts</button>
+    		<button class="tab" data-tab="Likes" onclick="openTab('Likes')">Likes</button>
+	</div>
+
+        <!-- Content for Posts and Likes Tabs -->
+        <section class="user-posts" id="Posts">
+	    <div class="post-grid">
+            <!-- Content for the "Posts" tab -->
+ <!-- TikTok-like Videos or Posts -->
+            <!-- Sample Video or Post Cards -->
+            <!-- Repeat this card structure for each post -->
+            <div class="post-card">
+                <div class="video-container">
+                    <!-- Video Player -->
+                    <video controls>
+                        <source src="videos/video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="post-details">
+                    <h2>You Want A Picture</h2>
+                    <p>Views: 1M</p>
+                    <!-- Add more post details as needed -->
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="video-container">
+                    <!-- Video Player -->
+                    <video controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="post-details">
+                    <h2>You Want A Beer</h2>
+                    <p>Views: 10M</p>
+                    <!-- Add more post details as needed -->
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="video-container">
+                    <!-- Video Player -->
+                    <video controls>
+                        <source src="videos/video3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="post-details">
+                    <h2>⚫ Is My Colour!</h2>
+                    <p>Views: 1M</p>
+                    <!-- Add more post details as needed -->
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="video-container">
+                    <!-- Video Player -->
+                    <video controls>
+                        <source src="videos/video4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="post-details">
+                    <h2>My Mum Told Me To Just Be Myself And People Would Like Me.</h2>
+                    <p>Views: 1M</p>
+                    <!-- Add more post details as needed -->
+                </div>
+            </div>
+	    </div>
+        </section>
+
+        <section class="user-posts" id="Likes">
+            <!-- Content for the "Likes" tab -->
+        </section>
+
+       
+    </main>
+  <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html"><img src="icons/home.svg" class="navbar-icon" alt"Home"></a></li>
+            <li><a href="#search"><img src="icons/search.svg" class="navbar-icon" alt"Search"></a></li>
+            <li><a href="#upload"><img src="icons/plus.svg" class="navbar-icon" alt"Upload"></a></li>
+            <li><a href="#notifications"><img src="icons/inbox.svg" class="navbar-icon" alt"Notifications"></a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" class="navbar-icon" alt"Profile"></a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Add your JavaScript code or link to external JS files here -->
+   <script src="script2.js"></script>
+</body>
+</html>

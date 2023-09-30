@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme-Tok</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+
+</head>
+<body>
+
+    
+    <main>
+        <section class="video-feed">
+            <div class="video-container">
+                <video id="video-player" autoplay>
+                    <source src="videos/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+		<div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <div class="custom-controls">
+                    <button id="prev-button" class="control-button">
+                        <img src="icons/prev.svg" alt="Previous">
+                    </button>
+                    <button id="play-button" class="control-button">
+                        <img src="icons/play.svg" alt="Play">
+                    </button>
+                    <button id="next-button" class="control-button">
+                        <img src="icons/next.svg" alt="Next">
+                    </button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html"><img src="icons/home.svg" class="navbar-icon" alt"Home"></a></li>
+            <li><a href="#search"><img src="icons/search.svg" class="navbar-icon" alt"Search"></a></li>
+            <li><a href="#upload"><img src="icons/plus.svg" class="navbar-icon" alt"Upload"></a></li>
+            <li><a href="#notifications"><img src="icons/inbox.svg" class="navbar-icon" alt"Notifications"></a></li>
+            <li><a href="profile.html"><img src="icons/profile.svg" class="navbar-icon" alt"Profile"></a></li>
+        </ul>
+    </nav>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

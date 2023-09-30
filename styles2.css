@@ -1,0 +1,209 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* User profile container */
+.profile-container {
+    display: flex;
+    padding: 20px;
+    justify-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.profile-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.user-stats span {
+    margin-right: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* User posts section */
+.user-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.post-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 400px; /* Adjust this size according to your preference */
+    margin: 0 auto;
+    max-height: 674px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.post-details {
+    padding: 10px;
+}
+
+.post-details h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* Add styling for footer icons, navigation, etc. */
+
+/* Add styles for the tabbed interface */
+.tab-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.tab {
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.tab:hover {
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+/* Show/hide tab content based on the selected tab */
+.user-posts {
+    display: none;
+}
+
+/* Style for the currently active tab */
+.active-tab {
+    display: block;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+/* Other styles remain the same */
+
+/* Navigation Bar styles */
+.navbar {
+    position: bottom;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px;
+    z-index: 3;
+    display: fixed;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center; /* Center the icons vertically */
+}
+
+.navbar-icon {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin-right: 110px;
+    margin-left: 110px;
+}
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Style for the 3x3 grid layout */
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a 3-column grid */
+    gap: 20px; /* Add spacing between grid items */
+}
+
+/* Adjust styles for each post card within the grid */
+.post-card {
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Center video within each card */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Adjust other styles for post details as needed */
+.post-details {
+    padding: 10px;
+}
+
+.post-details h2 {
+    font-size: 18px;
+    margin: 0;
+}
